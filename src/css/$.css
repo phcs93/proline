@@ -1,0 +1,243 @@
+@charset "utf-8";
+
+/*======================================================================*/
+/* geral */
+/*======================================================================*/
+
+body {
+    background-color: #E9EAED;
+    padding-top: 75px;
+}
+
+input, select {
+    font-weight: bold;
+    color: black !important;
+}
+
+input[type="checkbox"], tr{
+    cursor: pointer;
+}
+
+hr{
+    border-color: black;
+}
+
+/*======================================================================*/
+/* crud */
+/*======================================================================*/
+
+#backtop{
+    position: fixed;
+    bottom: 20px;
+    right: 20px; 
+}
+
+#orderByText{
+    position: fixed;
+    top: 70px;
+    left: 20px;
+}
+
+#orderByNumber{
+    position: fixed;
+    top: 120px;
+    left: 20px;
+}
+
+#print{
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+}
+
+/*======================================================================*/
+/* listagem */
+/*======================================================================*/
+
+.actions{
+    width: 10px;
+    white-space: nowrap;
+}
+
+.idRegistro{
+    display: inline-block;
+    width: 32px;
+    text-align: right;
+}
+
+.nrRegistro{
+    display: inline-block;
+    width: 32px;
+    text-align: right;
+}
+
+.hifen{
+    display: inline-block;
+}
+
+.order-desc:after{
+    font-family:'Glyphicons Halflings';
+    content:"\e113";
+    color: inherit;
+    padding-left: 10px;
+}
+
+.order-asc:after{
+    font-family:'Glyphicons Halflings';
+    content:"\e114";
+    color: inherit;
+    padding-left: 10px;
+}
+
+.accordion-toggle:before{
+    font-family:'Glyphicons Halflings';
+    content:"\e114";
+    float: right;
+    color: inherit;
+}
+
+.panel-heading.collapsed .accordion-toggle:before{
+    content:"\e080";
+}
+
+/*======================================================================*/
+/* input e form */
+/*======================================================================*/
+
+.numeric{
+    text-align: right;
+}
+
+span.suffixo {
+    width: 42px;
+    display: block;
+}
+
+.btnSuffixo {
+    width: 68px;
+}
+
+/*======================================================================*/
+/* print */
+/*======================================================================*/
+
+@media print {    
+    .pdf {
+        background-color: white;
+        box-shadow: none;
+        padding: 0px;
+        margin: 0px;
+        border-radius: 0px;
+    }
+}
+
+#pdf-logo{
+    font-size: 100px;
+}
+
+#pdf{
+    background-color: white;
+    box-shadow: black 0px 0px 15px;
+    padding: 50px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+.assinatura{
+    margin-top: 96px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-top: black solid;
+    display: block;
+    text-align: center;
+    width: 40%;
+}
+
+#window-print{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/*======================================================================*/
+/* bootstrap fix */
+/*======================================================================*/
+
+.modal-body{
+    padding-bottom: 0px;
+}
+
+.search-icon{
+    top: 0px !important;
+}
+
+.search-icon-form{
+    top: 0px !important;
+    right: 0px !important;
+}
+
+[data-toggle="collapse"]{
+    cursor: pointer;
+}
+
+.input-group-btn select {
+    border-color: #ccc;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.tab-content {
+    padding-top: 20px;
+}
+
+/*======================================================================*/
+/* bootstrap custom */
+/*======================================================================*/
+
+.panel-title{
+    font-weight: bold;
+}
+
+.table-title{
+    font-weight: bold;
+    text-align: center;
+}
+
+.badge-primary{
+    background-color: #428bca;
+    border-color: #357ebd
+}
+
+.list-group-item{
+    font-weight: bold;
+}
+
+/*======================================================================*/
+/* responsive */
+/*======================================================================*/
+
+/*xs*/
+@media(max-width:767px){
+
+    .panel-title{
+        font-size: 12px;
+    }
+
+}
+
+/*sm*/
+/*@media(min-width:768px){
+    
+}*/
+
+/*md*/
+/*@media(min-width:992px){
+    
+}*/
+
+/*lg*/
+/*@media(min-width:1200px){
+    
+}*/
