@@ -25,7 +25,7 @@ Para que isso seja possivel, cada produto tem três campos de conversão:
 * MTPC (métros por peça)
 
 No cadastramento do produto são necessárias no minimo duas unidades de conversão, o sistema encontra a terceira unidade automaticamente.
-Além das três unidades de conversão, também é necessário cadastras a unidade "real" do produto, pois **apenas um unico valor é salvo na base de dados** (este valor corresponde à undiade real).
+Além das três unidades de conversão, também é necessário cadastrar a unidade "real" do produto, pois **apenas um unico valor é salvo na base de dados** (este valor corresponde à undiade real).
 A unidade real é simplesmente uma forma de manter um valor único para o produto, esta unidade é convertida em todas as operações do sistema, utilizando as unidades de conversão.
 
 Na hora de consultar o estoque, é possivel saber a quantidade do produto em todas as três unidades de medida (convertendo o valor real da base utilizando as unidades de conversão cadastradas).
