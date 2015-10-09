@@ -13,7 +13,7 @@ Sistema WEB para gestão de negócios com controle de:
 * PHP
 * MySQL
 
-## Sistema de múltiplas unidade de medida
+## Sistema de múltiplas unidades de medida
 A versão atual do projeto possui um sistema de múltiplas unidades de medida para um unico produto:
 * Quilogramas (Kg)
 * Métros (m)
