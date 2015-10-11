@@ -34,3 +34,6 @@ Isso torna possivel também saber o preço do produto em todas as unidades de me
 Com isso é possivel comprar e vender os produtos em qualquer unidade!
 Na hora de sensibilizar o estoque é extremamente simples, basta converter a unidade comercializada para a unidade real do produto, e então utilizar esse valor para gerar uma movimentação de estoque.
 Isto já basta para manter toda a integridade das diferentes medidas, já que apesar do sistema trabalhar com três unidades, apenas a unidade "real" é salva na base.
+
+## Planos
+* Remover doctrine
