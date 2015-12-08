@@ -37,3 +37,5 @@ Isto já basta para manter toda a integridade das diferentes medidas, já que ap
 
 ## Planos
 * Remover doctrine
+* Combinar com o modulo mobile criado em outro projeto (TCC)
+* Criar um segmento genérico (TCC)
