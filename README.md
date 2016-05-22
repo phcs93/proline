@@ -37,5 +37,8 @@ Isto já basta para manter toda a integridade das diferentes medidas, já que ap
 
 ## Planos
 * Remover doctrine
-* Combinar com o modulo mobile criado em outro projeto (TCC)
+* 3 modulos (app, api e web)
+* dashboard metrics
+* breadcrumbs
+* theme menu
 * Criar um segmento genérico (TCC)
