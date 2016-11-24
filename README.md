@@ -42,3 +42,4 @@ Isto já basta para manter toda a integridade das diferentes medidas, já que ap
 * breadcrumbs
 * theme menu
 * Criar um segmento genérico (TCC)
+* Além do suporte à multiplas unidades de medida, implementar controle de estoque por componentes de um produto (TCC)
